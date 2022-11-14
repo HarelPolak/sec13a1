@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void btnPlay(Button btn, int sound){
-        btn.setAlpha((float) 0.8);
+        btn.setAlpha((float) 0.7);
         sp.play(sound,1, 1, 0, 0, 1);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
